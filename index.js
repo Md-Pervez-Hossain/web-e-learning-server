@@ -8,5 +8,11 @@ const courses = require("./data.json");
 app.get("/courses", (req, res) => {
   res.send(courses);
 });
+app.get("/courses/:id", (req, res) => {
+  const id = req.params.id;
+  const selectedCourse = courses.find((course) => course.id === id);
+  console.log(selectedCourse);
+  res.send(selectedCourse);
+});
 
 app.listen(port, () => {});
