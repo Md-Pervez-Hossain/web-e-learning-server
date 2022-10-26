@@ -15,4 +15,8 @@ app.get("/courses/:id", (req, res) => {
   res.send(selectedCourse);
 });
 
+app.get("/checkout/:id", (req, res) => {
+  const id = req.params.id;
+});
+
 app.listen(port, () => {});
