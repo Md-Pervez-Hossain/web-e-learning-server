@@ -1,0 +1,66 @@
+[
+  {
+    "id": "6357e27faecb0690880f4a0c",
+    "picture": "https://miro.medium.com/max/1400/1*LyZcwuLWv2FArOumCxobpA.png",
+    "name": "JavaScript",
+    "category": "JavaScript",
+    "email": "joannapreston@comfirm.com",
+    "phone": "+1 (872) 410-2688",
+    "price": 150,
+    "description": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user."
+  },
+  {
+    "id": "6357e27f4afa0e5cb5c66aba",
+    "picture": "https://blog.logrocket.com/wp-content/uploads/2021/04/utility-first-css-frameworks.png",
+    "name": "CSS",
+    "Category": "CSS",
+    "price": 40,
+    "email": "petrahenson@comfirm.com",
+    "phone": "+1 (978) 518-3841",
+    "description": "CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features."
+  },
+  {
+    "id": "6357e27fce073ffca36a315e",
+    "picture": "https://www.techfor.id/wp-content/uploads/2019/12/html.png",
+    "name": "HTML",
+    "gender": "HTML",
+    "price": 30,
+    "email": "boydcross@comfirm.com",
+    "phone": "+1 (975) 558-3982",
+    "address": "280 Hall Street, Alafaya, Tennessee, 1391",
+    "description": "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables."
+  },
+  {
+    "id": "6357e27fe02010887e1863ea",
+    "picture": "https://miro.medium.com/max/1400/1*CeuWv9fCjD1uTiTuKytnBQ.png",
+    "name": "React js",
+    "gender": "React js",
+    "price": 200,
+    "email": "cassiecannon@comfirm.com",
+    "phone": "+1 (802) 467-3601",
+    "address": "631 Minna Street, Harrison, Vermont, 4362",
+    "description": "The React. js framework is an open-source JavaScript framework and library developed by Facebook. It's used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript."
+  },
+  {
+    "id": "6357e27fbb5d65ec1a21503d",
+    "picture": "https://www.singaporecodingclub.com/wp-content/uploads/2022/02/share-nodejs-logo.png",
+    "name": "Node js",
+    "gender": "Node js",
+    "price": 250,
+    "email": "lakeishacarrillo@comfirm.com",
+    "phone": "+1 (944) 524-2535",
+    "address": "362 Leonora Court, Fairlee, Nevada, 7019",
+    "description": "It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers, such as traditional web sites and back-end API services, but was originally designed with real-time, push-based architectures in mind."
+  },
+  {
+    "id": "6357e27fbb5d65jc1a21503e",
+    "picture": "https://miro.medium.com/max/805/0*m1VOQP0FtcQufLgw.png",
+    "name": "Express js",
+    "gender": "Express js",
+    "price": 300,
+    "email": "lakeishacarrillo@comfirm.com",
+    "phone": "+1 (944) 524-2535",
+    "address": "362 Leonora Court, Fairlee, Nevada, 7019",
+    "description": "What Is Express JS? Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes."
+  }
+]
