@@ -17,6 +17,7 @@ app.get("/courses/:id", (req, res) => {
 
 app.get("/checkout/:id", (req, res) => {
   const id = req.params.id;
+  const selectedCourse = courses.find((course) => course.id === id);
 });
 
 app.listen(port, () => {});
