@@ -11,6 +11,9 @@ app.get("/courses", (req, res) => {
 app.get("/courses/:id", (req, res) => {
   const id = req.params.id;
   const selectedCourse = courses.find((course) => course.id === id);
+  if (!selectedCourse) {
+    res.send("Dont Found The Page");
+  }
   console.log(selectedCourse);
   res.send(selectedCourse);
 });
@@ -18,6 +21,9 @@ app.get("/courses/:id", (req, res) => {
 app.get("/checkout/:id", (req, res) => {
   const id = req.params.id;
   const selectedCourse = courses.find((course) => course.id === id);
+  if (!selectedCourse) {
+    res.send("Dont Found The Page");
+  }
   res.send(selectedCourse);
 });
 
